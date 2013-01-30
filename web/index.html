@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]>    <html class="no-js iem7"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Tiger | jQuery Mobile Web Template</title>
+        <meta name="description" content="">
+        
+        <!-- Mobile Tags -->
+        <meta content="initial-scale=1.0, user-scalable=no" name="viewport">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />	
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        
+		<!-- You can put your own logo below linking photos for splash screen-->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/touch/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/touch/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/touch/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/images/touch/apple-touch-icon-57x57-precomposed.png">
+        <link rel="shortcut icon" href="assets/images/touch/apple-touch-icon.png">
+		<!-- / Mobile Tags -->
+        
+        <!-- Splash screens -->
+        <!-- iPhone 320x460 -->
+        <link href="assets/images/splashscreens/apple-touch-startup-image-320x460.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+        <!-- iPhone (Retina) 640x920 -->
+        <link href="assets/images/splashscreens/apple-touch-startup-image-640x920.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <!-- iPhone 5 640x1096-->
+        <link href="assets/images/splashscreens/apple-touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <!-- iPad 768x1004 / 748x1024-->
+        <link href="assets/images/splashscreens/apple-touch-startup-image-768x1004.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+        <link href="assets/images/splashscreens/apple-touch-startup-image-748x1024.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+        <!-- iPad (Retina) 1536x2008 / 1496x2048 -->
+        <link href="assets/images/splashscreens/apple-touch-startup-image-1536x2008.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <link href="assets/images/splashscreens/apple-touch-startup-image-1496x2048.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+  	<!-- / Splash Screens -->
+        
+        
+        <!-- CSS Files -->
+        <link rel="stylesheet" href="assets/css/jquery.mobile.structure-1.0.1.min.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/jquery.mobile.1.0.1.min.css" />
+        <link rel="stylesheet" href="assets/css/add2home.css"><!-- Iphone Bubble  -->
+        <link rel="stylesheet" href="assets/css/icons/icons.css" type="text/css" >
+        <link rel="stylesheet" href="assets/css/icons/nav-icons.css" type="text/css" >
+		<link rel="stylesheet" href="assets/css/flexslider.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="assets/css/style.css" type="text/css" > <!-- Theme Style Sheet File -->
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+		<link rel="stylesheet" href="assets/css/photoswipe.css">
+
+        <link rel="stylesheet" type="text/css" href="assets/css/icons/nav-icons-black.css"> 
+        <!-- / CSS Files -->
+        
+        <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
+        <!--
+        <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+        -->
+        
+</head>
+    <body>        
+    	<!-- Menu Begin -->
+        <div id="menu">
+        		
+                <!-- Social Links -->
+            	<div class="social-links">
+                    <p><a class="twitter" href="#"></a></p>
+                    <p><a class="rss" href="#"></a></p>
+                    <p><a class="facebook" href="#"></a></p>
+                    <p><a class="googleplus" href="#"></a></p>
+                    <p><a class="linkedin" href="#"></a></p>
+                </div>
+                <!-- / Social Links -->
+                <div class="hr-full-black"></div>
+            
+            
+            
+           		<ul>
+            	
+                    <li><a href="#home" class="contentLink" data-transition="fade">Pizzup Home<span class="icon"></span></a></li>
+                    <li><a href="#aboutus" class="contentLink" data-transition="pop">Pizza - Tamanho<span class="icon"></span></a></li>
+                    <li><a href="#services" class="contentLink" data-transition="flip">Tipo de Massa<span class="icon"></span></a></li>
+                    <li><a href="#blog" class="contentLink" data-transition="fade">Bordas<span class="icon"></span></a></li>
+                    <li><a href="#products" class="contentLink" data-transition="fade">Sabor 1<span class="icon"></span></a></li>
+                    <li><a href="#gallery" class="contentLink" data-transition="flip">Sabor 2<span class="icon"></span></a></li>
+                    <li><a href="#portfolio" class="contentLink" data-transition="slideup">Acompanhamentos<span class="icon"></span></a></li>
+                    <li><a href="#twitter" class="contentLink" data-transition="slide">Fechar Pedido<span class="icon"></span></a></li>
+                    <li><a href="#contact" class="contentLink" data-transition="slideup">Compartilhar<span class="icon"></span></a></li>
+               
+               </ul>
+            
+            
+        </div>
+        <!-- /Menu -->
+        
+        
+        
+        
+        <!-- *********************************************************
+       	 HOME PAGE BEGIN
+        ********************************************************* -->
+        <div data-role="page" class="pages" id="home" data-theme="a">
+        	
+            <!-- Header Begin -->
+            <div data-role="header" class="header" data-theme="a">
+            <a href="#" class="showMenu menuBtn">Menu</a>
+            <div class="logo">&nbsp;</div>
+            </div>
+            <!-- /header -->
+            
+            <!-- Content Begin -->
+            <div data-role="content">
+            	
+            	<!-- Slider -->     
+                <div class="flex-container">
+                  <div class="flexslider">
+                   <ul class="slides"> 
+                        <li>
+                        <img src="assets/images/Demo/Slide/demo1.jpg" alt="" />
+                        </li>
+                        <li> 
+                        <img src="assets/images/Demo/Slide/demo4.jpg" alt="" />
+                        </li>
+                        <li>
+                        <img src="assets/images/Demo/Slide/demo3.jpg" alt="" />
+                        </li>
+                        <li>
+                        <img src="assets/images/Demo/Slide/demo2.jpg" alt="" />
+                        </li>  
+                    </ul>
+                  </div>
+                </div>
+                <!-- / Slider -->
+                
+               
+                <!-- Text Area --> 
+                <div class="text-box-area">       
+                    <div class="text-info">
+                    <p>
+                    <img src="assets/images/Demo/c1.jpg" width="65" alt="img" class="align-left imgbox">
+                    <strong>Amazing Touch Functions!</strong><br/>
+                    You can use swipe feature on left menu. Let's try to swipe right and left you will be suprized. And also you can disable enable very easy this feature. Tiger is have multicolor theme layout system. You can change the theme color very easy.</p>
+                    </div>
+                </div>
+                <!-- / Text Area -->
+                
+          		<div class="clearfix"></div>
+				
+                
+                <!-- Collapsed Area -->
+                <div data-role="collapsible-set">
+                    <div data-role="collapsible" data-collapsed="false">
+                        <h3>List Styles</h3>
+                         
+                        <!-- Star List -->
+                        <ul class="starlist">
+                            <li>Star List</li>
+                        </ul>
+                        <!-- / Star List -->
+                        
+                        <!-- Check List -->
+                        <ul class="checklist">
+                            <li>Check List</li>
+                        </ul>
+                        <!-- / Check List -->
+                        
+                        <!-- Bullet List -->
+                        <ul class="bulletlist">
+                            <li>Bullet List</li>
+                        </ul>
+                        <!-- / Bullet List -->
+                        
+                        <!-- Numbered List -->
+                        <ol>
+                            <li>Ordered List</li>
+                        </ol> 
+                        <!-- / Numbered List -->
+                    </div>
+                    
+                    
+                    <div data-role="collapsible" data-collapsed="true">
+                    
+                        <h3>Messages</h3>
+                        <!-- Message style start //-->
+                        <div class="text-info">
+                        <div class="info">This is information message</div>
+                        <div class="success">This is success message</div>
+                        <div class="warning">This is warning message</div>
+                        <div class="error">This is error message</div>
+                        </div>
+                        <!-- Message style end //-->
+                    
+                    </div>
+                    
+                    
+                    <div data-role="collapsible" data-collapsed="true">
+                    
+                         <h3>Highlights</h3>
+                         <!-- Highlight -->
+                         <div class="text-info">
+                         <p>Vestibulum molestie commodo lobortis. <span class="highlight-yellow">Vivamus</span> vulputate velit eget eros suscipit ullamcorper.          </p>
+                         <p>Vestibulum molestie commodo lobortis. <span class="highlight-dark">Vivamus</span> vulputate velit eget eros suscipit ullamcorper.          </p>
+                         <p>Vestibulum molestie commodo lobortis. <span class="highlight-green">Vivamus</span> vulputate velit eget eros suscipit ullamcorper.          </p>
+                         <p>Vestibulum molestie commodo lobortis. <span class="highlight-red">Vivamus</span> vulputate velit eget eros suscipit ullamcorper.</p>
+                         </div>
+                         <!-- / Highlight -->
+                          
+                    </div>
+                    
+                </div>
+                <!-- / Collapsed Area --> 
+        
+            </div>
+            <!-- /content -->
+        </div>
+        <!-- *********************************************************
+       	 HOME PAGE END
+        ********************************************************* -->
+        
+        
+        
+        <!-- *********************************************************
+       	 ABOUT US PAGE BEGIN
+        ********************************************************* -->
+        <div data-role="page" class="pages" id="aboutus" data-theme="a">
+        	
+            <!-- Header Begin -->
+            <div data-role="header" class="header" data-theme="a">
+            <a href="#" class="showMenu menuBtn">Menu</a>
+            <div class="logo">&nbsp;</div>
+            </div>
+            <!-- /header -->
+            
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"><div class="homeicon"></div></a></li>
+                <li><a href="#" title="About Us">About Us</a></li>
+            </ul>
+            <!-- / breadcrumb-->
+            
+            <!-- Content Begin -->
+            <div data-role="content">
+            
+            	<!-- Text Area -->
+            	<div class="text-box-area">
+            	<img src="assets/images/Demo/Slide/demo3.jpg" alt="img" class="align-center imgbox fixwidth">
+                
+                <div class="text-info">
+                <p>
+                <strong>Also you can use Navbar!</strong><br/>
+                Tiger jQuery Mobile Template is have awesome footer navbar with premium icons. You can use over 100 icons with this navbar. And you can use it with jQuery Mobile fixed feature. Just tap screen one time and hide show navbar. If you want you can disable this feature easly.</p>
+                </div>
+                </div>
+                <!-- / Text Area -->
+                
+                <div class="clearfix"></div>
+                
+                <!-- Collapsed Area -->
+                <div data-role="collapsible-set">
+                  <div data-role="collapsible">
+                    <h3>Our Vision</h3>
+                    
+                    <div class="text-info">
+                    <p>
+                    <img src="assets/images/Demo/c2.jpg" width="65" alt="img" class="align-left imgbox">
+                    <strong>Navigation Bars</strong><br/>
+                    Tiger jQuery Mobile Template is have awesome footer navbar with premium icons. You can use over 100 icons with this navbar. And you can use it with jQuery Mobile fixed feature. Just tap screen one time and hide show navbar. If you want you can disable this feature easly. You can see more details on produts details page.</p>
+                    </div>
+                    
+                  </div>
+                  <div data-role="collapsible" data-collapsed="true">
+                    <h3>Our Mission</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra nisl consectetur sapien vestibulum sit amet convallis felis tincidunt.</p>
+                  </div>
+                  <div data-role="collapsible" data-collapsed="true">
+                    <h3>History</h3>
+                    <p>Nam sapien nisi, sagittis ut laoreet et, ultricies sit amet libero. Sed et venenatis ligula. Mauris quis tellus enim. Pellentesque risus ligula, pulvinar non tempor varius, dignissim ac eros. Duis tincidunt molestie hendrerit. Sed vehicula, eros at blandit fringilla, nulla orci dapibus ipsum, ac interdum dolor arcu nec magna. Suspendisse potenti.</p>
+                  </div>
+                </div> 
+                <!-- / Collapsed Area -->
+        
+            </div>
+            <!-- /content -->
+            
+            <!-- If you want to use your mobile project copy / paste this (FOOTER) -->
+            <div data-role="footer" class="nav-glyphish" data-position="fixed" data-theme="a">
+            
+                <div data-role="navbar" class="nav-glyphish" data-grid="c">
+                    <ul>
+                        <li><a href="#blog" class="iconsub-white-Idcard" data-icon="custom">Blog</a></li>
+                        <li><a href="mailto:email@somewhere.com" class="iconsub-white-Envelope" data-icon="custom">Email</a></li>
+                        <li><a href="tel:+900000000" class="iconsub-white-Phone" data-icon="custom">Phone</a></li>
+                        <li><a href="#home" class="iconsub-white-House" data-icon="custom">Home</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <!-- end -->
+        
+        </div>
+        <!-- *********************************************************
+       	  ABOUT US PAGE END
+        ********************************************************* -->
+        
+        
+        <!-- *********************************************************
+       	 SERVICES PAGE BEGIN
+        ********************************************************* -->
+        <div data-role="page" class="pages" id="services" data-theme="a">
+        	
+            <!-- Header Begin -->
+            <div data-role="header" class="header" data-theme="a">
+            <a href="#" class="showMenu menuBtn">Menu</a>
+            <div class="logo">&nbsp;</div>
+            </div>
+            <!-- /header -->
+            
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"><div class="homeicon"></div></a></li>
+                <li><a href="#" title="Services">Services</a></li>
+            </ul>
+            <!-- / breadcrumb-->
+            
+            <!-- Content Begin -->
+            <div data-role="content">
+            	
+                <!-- 1 Column Area -->
+                    <!-- Text Area -->                  
+                    <div class="services-text-info">
+                    <img src="assets/images/Demo/Slide/demo3.jpg" alt="img" class="align-center imgbox">
+                    <p>
+                    <strong>Service One</strong><br/>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis congue ipsum at convallis. Aenean ac scelerisque mauris.</p>
+                    </div>
+                    <!-- / Text Area --> 
+			    <!-- / 1 Column Area -->
+                
+            
+                <!-- 2 Column Area -->
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                    
+                        <!-- Text Area -->                  
+                        <div class="services-text-info">
+                        <img src="assets/images/Demo/Slide/demo3.jpg" alt="img" class="align-center imgbox">
+                        <p>
+                        <strong>Service One</strong><br/>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis congue ipsum at convallis. Aenean ac scelerisque mauris.</p>
+                        </div>
+                        <!-- / Text Area --> 
+                   
+                    </div>
+                    
+                    <div class="ui-block-b">
+                    
+                        <!-- Text Area -->                  
+                        <div class="services-text-info">
+                        <img src="assets/images/Demo/Slide/demo3.jpg" alt="img" class="align-center imgbox">
+                        <p>
+                        <strong>Service Two</strong><br/>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis congue ipsum at convallis. Aenean ac scelerisque mauris.</p>
+                        </div>
+                        <!-- / Text Area --> 
+                   
+                    </div>
+                   
+                </div>
+			    <!-- / 2 Column Area -->
+                
+                <!-- 3 Column Area -->
+                <div class="ui-grid-b">
+                    <div class="ui-block-a">
+                    
+                        <!-- Text Area -->                  
+                        <div class="services-text-info">
+                        <img src="assets/images/Demo/Slide/demo3.jpg" alt="img" class="align-center imgbox">
+                        <p class="text-align-center">
+                        <strong>Service One</strong><br/>
+                        </div>
+                        <!-- / Text Area --> 
+                   
+                    </div>
+                    
+                    <div class="ui-block-b">
+                    
+                        <!-- Text Area -->                  
+                        <div class="services-text-info">
+                        <img src="assets/images/Demo/Slide/demo3.jpg" alt="img" class="align-center imgbox">
+                        <p class="text-align-center">
+                        <strong>Service Two</strong><br/>
+                        </div>
+                        <!-- / Text Area --> 
+                   
+                    </div>
+                    
+                    <div class="ui-block-c">
+                    
+                        <!-- Text Area -->                  
+                        <div class="services-text-info">
+                        <img src="assets/images/Demo/Slide/demo3.jpg" alt="img" class="align-center imgbox">
+                        <p class="text-align-center">
+                        <strong>Service Three</strong><br/>
+                        </div>
+                        <!-- / Text Area --> 
+                   
+                    </div>
+                   
+                    </div>
+              
+			    <!-- / 2 Column Area -->  
+        
+            </div>
+            <!-- /content -->
+            
+        </div>
+        <!-- *********************************************************
+       	  SERVICES PAGE END
+        ********************************************************* -->
+                
+        
+   		<!-- *********************************************************
+       	 BLOG PAGE BEGIN
+        ********************************************************* -->
+        <div data-role="page" class="pages" id="blog" data-theme="a">
+       		<!--header-->
+            <div data-role="header" class="header" data-theme="a">
+            <a href="#" class="showMenu menuBtn">Menu</a>
+            <div class="logo">&nbsp;</div>
+            </div>
+            <!-- /header -->
+            
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"><div class="homeicon"></div></a></li>
+                <li><a href="#" title="Blog">Blog</a></li>
+            </ul>
+            <!-- / breadcrumb-->
+            
+        	<!-- Content -->
+            <div data-role="content">		
+                
+                <!--START BLOG POSTS-->
+                <div class="content">
+                
+                    <!--START POST-->
+                    <div class="post">	
+                    
+                        <!--START POST-TITLE-->
+                        <div class="post-title">				
+                        <h2 class="title"><a href="#blog-detail">Duis aute irure dolor in repre hende rit in voluptate.</a></h2>
+                        </div>
+                        <!--END POST-TITLE-->
+                    
+                        <!--START POST-MEDIA-->
+                        <div class="post-media">		
+                        <a href="#"><img src="assets/images/Demo/Slide/demo2.jpg" class="align-left imgbox fixwidth" alt="img"/></a>
+                        </div>
+                        <!--END POST-MEDIA-->
+                    
+                        <!--START POST-INFO-->
+                        <div class="post-info">						
+                        <div class="date"><span class="month">Jun</span><span class="day">27</span><span class="year">2012</span></div>					
+                        <div class="comments"><a href="#"><span>4</span> comments</a></div>							
+                        </div>
+                        <!--END POST-INFO-->	
+                    
+                        <!--START POST-CONTENT -->
+                        <div class="post-content">	
+                        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim enim, pharetra in sodales at, interdum sit amet dui. Nullam vulputate euismod urna non pharetra. Phasellus blandit mattis ipsum, ac laoreet lorem lacinia et. Cras et ligula libero. Quisque quis&hellip;</p>
+                        <p><a href="#blog-detail" class="more-link">Continue reading &rarr;</a></p>
+                        
+                        </div>
+                        <!--END POST-CONTENT -->
+                    
+                    </div>
+                    <!--END POST-->
+                
+                    <!--START POST-->
+                    <div class="post">	
+                    
+                        <!--START POST-TITLE-->
+                        <div class="post-title">				
+                        <h2 class="title"><a href="#blog-detail">Duis aute irure dolor in repre hender it in voluptate.</a></h2>
+                        </div>
+                        <!--END POST-TITLE-->
+                    
+                        <!--START POST-MEDIA-->
+                        <div class="post-media">		
+                        <a href="#"><img src="assets/images/Demo/Slide/demo1.jpg" alt="img" class="align-left imgbox fixwidth" /></a>
+                        </div>
+                        <!--END POST-MEDIA-->
+                        
+                        <!--START POST-INFO-->
+                        <div class="post-info">						
+                        <div class="date"><span class="month">Jun</span><span class="day">27</span><span class="year">2012</span></div>					
+                        <div class="comments"><a href="#blog-detail"><span>4</span> comments</a></div>							
+                        </div>
+                        <!--END POST-INFO-->	
+                        
+                        <!--START POST-CONTENT -->
+                        <div class="post-content">	
+                        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim enim, pharetra in sodales at, interdum sit amet dui. Nullam vulputate euismod urna non pharetra. Phasellus blandit mattis ipsum, ac laoreet lorem lacinia et. Cras et ligula libero. Quisque quis&hellip;</p>
+                        <p><a href="#blog-detail" class="more-link">Continue reading &rarr;</a></p>
+                        
+                        </div>
+                        <!--END POST-CONTENT -->
+                
+                    </div>
+                    <!--END POST-->
+                
+                </div>
+                <!--END BLOG POSTS-->
+                
+                <div class="pagenaviarea clearfix"></div>
+                
+                <!--START PAGENAVI-->	
+                <div class="pagenavi">
+                <span class="pages">1 of 9</span>
+                <span class="current">1</span>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">&rarr;</a>			
+                </div>
+                <!--END PAGENAVI-->	
+           </div><!-- / Content -->
+           
+        </div>
+        <!-- *********************************************************
+       	  BLOG PAGE END
+        ********************************************************* -->
+        
+        
+        <!-- *********************************************************
+       	  BLOG DETAIL PAGE BEGIN
+        ********************************************************* -->
+        <div data-role="page" class="pages" id="blog-detail" data-theme="a">
+            <!--header-->
+            <div data-role="header" class="header" data-theme="a">
+            <a href="#" class="showMenu menuBtn">Menu</a>
+            <div class="logo">&nbsp;</div>
+            <a href="#blog" class="backBtn">Back</a>
+            </div>
+            <!-- /header -->
+            
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"><div class="homeicon"></div></a></li>
+                <li><a href="#blog" title="Blog">Blog</a></li>
+                <li><a href="#blog-detail" title="Blog Detail">Blog Detail</a></li>
+            </ul>
+            <!-- / breadcrumb-->
+        
+            <!-- Content -->
+            <div data-role="content" >
+            
+                <!--START BLOG POSTS-->
+                <div class="content">
+                        
+                    <!--START POST-->
+                    <div class="post">	
+                        
+                        
+                        <!--START POST-TITLE-->
+                        <div class="post-title">				
+                            <h2 class="title"><a href="#blog-detail">Duis aute irure dolor in repre hende rit in voluptate.</a></h2>
+                        </div>
+                        <!--END POST-TITLE-->                               	
+                        
+                        <!--START POST-MEDIA-->
+                        <div class="post-media">		
+                            <a href="#"><img src="assets/images/Demo/Slide/demo1.jpg" alt="" width="640" height="359" class="align-left imgbox fixwidth" /></a>
+                        </div>
+                        <!--END POST-MEDIA-->
+                        
+                        <!--START POST-INFO-->
+                        <div class="post-info">						
+                            <div class="date"><span class="month">Jun</span><span class="day">27</span><span class="year">2012</span></div>					
+                            <div class="comments"><a href="#"><span>4</span> comments</a></div>							
+                        </div>
+                        <!--END POST-INFO-->	
+                        
+                        <!--START POST-CONTENT -->
+                        <div class="post-content">	
+                        
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim enim, pharetra in sodales at, interdum sit amet dui. Nullam vulputate euismod urna non pharetra. Phasellus blandit mattis ipsum, ac laoreet lorem lacinia et. Cras et ligula libero. Quisque quis&hellip;</p>
+                            
+                            <p><img src="assets/images/Demo/c2.jpg" width="65" alt="img" class="align-left imgbox">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim enim, pharetra in sodales at, interdum sit amet dui. Nullam vulputate euismod urna non pharetra. Phasellus blandit mattis ipsum, ac laoreet lorem lacinia et. Cras et ligula libero. Quisque quis&hellip;</p>
+                            
+                        
+                        </div>
+                        <!--END POST-CONTENT -->
+                    
+                    </div>
+                    <!--END POST-->
+                    
+                
+                    <div class="post">
+                    
+                    <h3 class="title">3 comments</h3>		
+                        
+                        <!-- START COMMENT-LIST -->
+                        <ul class="comment-list">
+                
+                            <li class="comment">
+                
+                                <div>
+
+                                    <!-- START COMMENT-WRAP -->
+                                    <div class="comment-wrap">
+                                        <p>Morbi velit eros, sagittis in facilisis non, rhoncus et erat. Nam posuere tristique sem, eu ultricies tortor imperdiet vitae. Curabitur lacinia neque non metus.</p>							
+                                    </div>
+                                    <!-- END COMMENT-WRAP -->
+                              </div>
+                              
+                                
+                            </li>
+                
+                            <li class="comment">
+                
+                                <div>
+                                    
+                                    
+                                    <!-- START COMMENT-META -->	
+                                    <div class="comment-meta">
+                                        <p class="author"><a href="#">Kadir Atas</a></p>
+                                        <p class="date">July 23, 2012</p>							
+                                    </div>
+                                    <!-- END COMMENT-META-->
+                                    
+                                    <!-- START COMMENT-WRAP -->	
+                                    <div class="comment-wrap">
+                                        <p>Morbi velit eros, sagittis in facilisis non, rhoncus et erat. Nam posuere tristique sem, eu ultricies tortor imperdiet vitae. Curabitur lacinia neque non metus.</p>							
+                                    </div>
+                                    <!-- END COMMENT-WRAP -->
+                              </div>
+                
+                            </li>
+                
+                            <li class="comment">
+                
+                                <div>
+                                    
+                                    
+                                    
+                                    
+                                    <!-- START COMMENT-WRAP -->
+                                    <div class="comment-wrap">
+                                        <p>Morbi velit eros, sagittis in facilisis non, rhoncus et erat. Nam posuere tristique sem, eu ultricies tortor imperdiet vitae. Curabitur lacinia neque non metus.</p>							
+                                    </div>
+                                    <!-- END COMMENT-WRAP -->
+                              </div>
+                
+                            </li>
+                
+                        </ul>
+                        <!-- END COMMENT-LIST -->
+                            
+                    </div>
+                    <!--END POST-->
+                </div>
+                <!--END BLOG POSTS-->
+            </div>
+            <!-- / Content -->
+            <div class="clear"></div>
+        </div>
+        <!-- *********************************************************
+       	  BLOG DETAIL PAGE END
+        ********************************************************* -->
+        
+        
+        
+        <!-- *********************************************************
+       	  PRODUCTS PAGE BEGIN
+        ********************************************************* -->
+   		<div data-role="page" class="pages" id="products" data-theme="a">
+            <!--header-->
+            <div data-role="header" class="header" data-theme="a">
+            <a href="#" class="showMenu menuBtn">Menu</a>
+            <div class="logo">&nbsp;</div>
+            </div>
+            <!-- /header -->
+            
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"><div class="homeicon"></div></a></li>
+                <li><a href="#" title="Products">Products</a></li>
+            </ul>
+            <!-- / breadcrumb-->
+        
+       		<!-- Content -->
+            <div data-role="content" >
+				<!-- Three column portfolio -->
+						<ul class="product">
+                            <li class="product-three"><a href="#product-details" ><img src="assets/images/Demo/Galleries/product-images/img5.jpg" /><p><strong>Product Name</strong></p></a></li>
+                            <li class="product-three"><a href="#product-details" ><img src="assets/images/Demo/Galleries/product-images/img4.jpg" /><p><strong>Product Name</strong></p></a></li>
+                            <li class="product-three"><a href="#product-details"><img src="assets/images/Demo/Galleries/product-images/img3.jpg" /><p><strong>Product Name</strong></p></a></li>
+                            
+                        </ul>
+                        <!-- / Three Column Portfolio -->
+                        
+                        <div class="clearfix"></div>
+                        
+                        <!-- Two column portfolio -->
+						<ul class="product">
+                            <li class="product-two"><a href="#product-details" ><img src="assets/images/Demo/Galleries/product-images/img2.jpg" /><p><strong>Product Name</strong></p></a></li>
+                            <li class="product-two"><a href="#product-details" ><img src="assets/images/Demo/Galleries/product-images/img6.jpg" /><p><strong>Product Name</strong></p></a></li>                            
+                        </ul>
+                        <!-- / Two Column Portfolio -->
+                        
+                        <div class="clearfix"></div>
+                        
+                     	<!-- One column portfolio -->
+						<ul class="product">
+                            <li class="product-one"><a href="#product-details" ><img src="assets/images/Demo/Galleries/product-images/img1.jpg" /><p><strong>Product Name</strong></p></a></li>
+                        </ul>
+                        <!-- / One Column Portfolio -->
+                        
+                         <div class="clearfix"></div>
+                         
+                         <ul data-role="listview" data-inset="true">
+                           <li><a href="#">Product Category</a></li>
+                           <li><a href="#">Product Category</a></li>
+                           <li><a href="#">Product Category</a></li>
+                         </ul>
+                    </div>
+                    <!-- / Content -->
+                  
+
+            </div>
+            <!-- / Content -->
+            <div class="clear"></div>
+            
+        </div>
+        <!-- *********************************************************
+       	  PRODUCTS PAGE END
+        ********************************************************* -->
+        
+
+        <!-- *********************************************************
+       	  PRODUCT DETAIL PAGE BEGIN
+        ********************************************************* -->
+        <div data-role="page" class="pages" id="product-details" data-theme="a">
+           <!--header-->
+            <div data-role="header" class="header" data-theme="a">
+            <a href="#" class="showMenu menuBtn">Menu</a>
+            <div class="logo">&nbsp;</div>
+            <a href="#products" class="backBtn">Back</a>
+            </div>
+            <!-- /header -->
+            
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"><div class="homeicon"></div></a></li>
+                <li><a href="#product" title="Products">Products</a></li>
+                <li><a href="#" title="Product Detail">Product Detail</a></li>
+            </ul>
+            <!-- / breadcrumb-->
+        	
+            <!-- Content -->
+            <div data-role="content" >
+            
+                <!-- Text Box Area -->
+                <div class="text-box-area">
+                     
+                    <img src="assets/images/Demo/Slide/demo3.jpg" alt="img" class="align-center imgbox fixwidth">
+                                         
+                    <div class="text-info">
+                        <p>
+                        <strong>Amazing Navigation Bar!</strong><br/>
+                        You can see samples of navbars code below. Easy to use and develop. And you will see down of window fixed navigation bar use.</p>
+                    </div>
+                    
+                    
+                    
+                    <!-- Navbars -->
+                    <div class="text-info">
+                        <p>
+                        <strong>Two column navbar</strong><br/>
+                        Two column navbar sample</p>
+                    </div>
+                    
+                    <div data-role="navbar" class="nav-glyphish" data-grid="a">
+                        <ul>
+                            <li><a href="#" class="iconsub-white-Tags" data-icon="custom">Products</a></li>
+                            <li><a href="mailto:email@somewhere.com" class="iconsub-white-Envelope" data-icon="custom">Email</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="clearfix"></div>
+                    
+                    <div class="text-info">
+                        <p>
+                        <strong>Three column navbar</strong><br/>
+                        Three column navbar sample</p>
+                    </div>
+                    
+                    
+                    <div data-role="navbar" class="nav-glyphish" data-grid="b">
+                        <ul>
+                            <li><a href="#" class="iconsub-white-Tags" data-icon="custom">Products</a></li>
+                            <li><a href="mailto:email@somewhere.com" class="iconsub-white-Envelope" data-icon="custom">Email</a></li>
+                            <li><a href="tel:00000000" class="iconsub-white-Phone" data-icon="custom">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="clearfix"></div>
+                    
+                    <div class="text-info">
+                        <p>
+                        <strong>Four column navbar</strong><br/>
+                        Four column navbar sample</p>
+                    </div>
+                                        
+                    <div data-role="navbar" class="nav-glyphish" data-grid="c">
+                        <ul>
+                            <li><a href="#" class="iconsub-white-Tags" data-icon="custom">Products</a></li>
+                            <li><a href="mailto:email@somewhere.com" class="iconsub-white-Envelope" data-icon="custom">Email</a></li>
+                            <li><a href="tel:00000000" class="iconsub-white-Phone" data-icon="custom">Contact</a></li>
+                            <li><a href="https://maps.google.com/" class="iconsub-white-Map" data-icon="custom">Map</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="clearfix"></div>
+
+					<div class="text-info">
+                        <p>
+                        <strong>Five column navbar</strong><br/>
+                        Five column navbar sample</p>
+                    </div>
+                                        
+                    <div data-role="navbar" class="nav-glyphish" data-grid="d">
+                        <ul>
+                            <li><a href="#" class="iconsub-white-Tags" data-icon="custom">Products</a></li>
+                            <li><a href="mailto:email@somewhere.com" class="iconsub-white-Envelope" data-icon="custom">Email</a></li>
+                            <li><a href="tel:00000000" class="iconsub-white-Phone" data-icon="custom">Contact</a></li>
+                            <li><a href="#" class="iconsub-white-House" data-icon="custom">Home</a></li>
+                            <li><a href="#" class="iconsub-white-Eye" data-icon="custom">About</a></li>
+                        </ul>
+                    </div>
+        			<!-- /Navbars -->
+                
+                </div>
+                <!-- / Text Box Area -->
+                
+                
+            </div>
+            <!-- / Content -->
+            <div class="clear"></div>
+            
+            <!-- If you want to use your mobile project copy / paste this (FOOTER) -->
+                <div data-role="footer" class="nav-glyphish" data-position="fixed" data-theme="a">
+                
+                    <div data-role="navbar" class="nav-glyphish" data-grid="c">
+                        <ul>
+                            <li><a href="#blog" class="iconsub-white-Idcard" data-icon="custom">Blog</a></li>
+                            <li><a href="mailto:email@somewhere.com" class="iconsub-white-Envelope" data-icon="custom">Email</a></li>
+                            <li><a href="tel:+900000000" class="iconsub-white-Phone" data-icon="custom">Phone</a></li>
+                            <li><a href="#home" class="iconsub-white-House" data-icon="custom">Home</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <!-- end -->
+        </div>
+        <!-- *********************************************************
+       	  PRODUCT DETAIL PAGE END
+        ********************************************************* -->
+        
+        
+   		<!-- *********************************************************
+       	 GALLERY PAGE BEGIN
+        ********************************************************* -->
+        <div data-role="page" class="pages" id="gallery" data-theme="a">
+            <!--header-->
+            <div data-role="header" class="header" data-theme="a">
+            <a href="#" class="showMenu menuBtn">Menu</a>
+            <div class="logo">&nbsp;</div>
+            </div>
+            <!-- /header -->
+            
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"><div class="homeicon"></div></a></li>
+                <li><a href="#" title="Gallery">Gallery</a></li>
+            </ul>
+            <!-- / breadcrumb-->
+     	 
+            <!-- Content -->
+            <div data-role="content">		
+                        
+                <!-- Three Column Gallery -->         
+                <ul id="Gallery" class="gallery">
+                    <li class="gallery-three"><a href="assets/images/Demo/Galleries/gallery-images/img1.jpg" rel="external"><img src="assets/images/Demo/Galleries/gallery-images/img1.jpg" alt="Caption"></a></li>
+                    <li class="gallery-three"><a href="assets/images/Demo/Galleries/gallery-images/img2.jpg" rel="external"><img src="assets/images/Demo/Galleries/gallery-images/img2.jpg" alt="Caption"></a></li>
+                    <li class="gallery-three"><a href="assets/images/Demo/Galleries/gallery-images/img3.jpg" rel="external"><img src="assets/images/Demo/Galleries/gallery-images/img3.jpg" alt="Caption"></a></li>
+                </ul>
+                <!-- /Three Column Gallery -->  
+                
+                <!-- Two Column Gallery -->         
+                <ul id="Gallery" class="gallery">
+                    <li class="gallery-two"><a href="assets/images/Demo/Galleries/gallery-images/img4.jpg" rel="external"><img src="assets/images/Demo/Galleries/gallery-images/img4.jpg" alt="Image 001" /></a></li>
+                    <li class="gallery-two"><a href="assets/images/Demo/Galleries/gallery-images/img5.jpg" rel="external"><img src="assets/images/Demo/Galleries/gallery-images/img5.jpg" alt="Image 001" /></a></li>
+                </ul>
+                <!-- /Two Column Gallery -->   
+                
+                <!-- One Column Gallery -->         
+                <ul id="Gallery" class="gallery">
+                    <li class="gallery-one"><a href="assets/images/Demo/Galleries/gallery-images/img6.jpg" rel="external"><img src="assets/images/Demo/Galleries/gallery-images/img6.jpg" alt="Image 001" /></a></li>
+                </ul>
+                <!-- /One Column Gallery -->    
+             
+                <div class="clearfix"></div>
+             
+                <ul data-role="listview" data-inset="true">
+                    <li><a href="#">Print Gallery</a></li>
+                    <li><a href="#">Web Gallery</a></li>
+                    <li><a href="#">Brochure Gallery</a></li>
+                </ul>
+                     
+                     
+            </div><!-- /content -->
+        </div>
+        <!-- *********************************************************
+       	  GALLERY PAGE END
+        ********************************************************* -->
+        
+        
+        
+        <!-- *********************************************************
+       	  PORTFOLIO PAGE BEGIN
+        ********************************************************* -->
+        <div data-role="page" class="pages" id="portfolio" data-theme="a">
+            <!--header-->
+            <div data-role="header" class="header" data-theme="a">
+            <a href="#" class="showMenu menuBtn">Menu</a>
+            <div class="logo">&nbsp;</div>
+            </div>
+            <!-- /header -->
+            
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"><div class="homeicon"></div></a></li>
+                <li><a href="#" title="Portfolio">Portfolio</a></li>
+            </ul>
+            <!-- / breadcrumb-->
+
+         	<!-- Content -->
+            <div data-role="content" >
+                
+                <!-- Three column portfolio -->
+                <ul id="Portfolio" class="portfolio">
+                    <li class="portfolio-three"><a href="#portfolio-detail" ><img src="assets/images/Demo/Galleries/gallery-images/img5.jpg" /><p><strong>Portfolio Name</strong><br>This is information.</p></a></li>
+                    <li class="portfolio-three"><a href="#portfolio-detail" ><img src="assets/images/Demo/Galleries/gallery-images/img4.jpg" /><p><strong>Portfolio Name</strong><br>This is information.</p></a></li>
+                    <li class="portfolio-three"><a href="#portfolio-detail"><img src="assets/images/Demo/Galleries/gallery-images/img3.jpg" /><p><strong>Portfolio Name</strong><br>This is information.</p></a></li>
+                    
+                </ul>
+                <!-- / Three Column Portfolio -->
+                
+                <div class="clearfix"></div>
+                
+                <!-- Two column portfolio -->
+                <ul id="Portfolio" class="portfolio">
+                    <li class="portfolio-two"><a href="#portfolio-detail" ><img src="assets/images/Demo/Galleries/gallery-images/img2.jpg" /><p><strong>Portfolio Name</strong><br>This is information.</p></a></li>
+                    <li class="portfolio-two"><a href="#portfolio-detail" ><img src="assets/images/Demo/Galleries/gallery-images/img6.jpg" /><p><strong>Portfolio Name</strong><br>This is information.</p></a></li>                            
+                </ul>
+                <!-- / Two Column Portfolio -->
+                
+                <div class="clearfix"></div>
+                
+                <!-- One column portfolio -->
+                <ul id="Portfolio" class="portfolio">
+                    <li class="portfolio-one"><a href="#portfolio-detail" ><img src="assets/images/Demo/Galleries/gallery-images/img1.jpg" /><p><strong>Portfolio Name</strong><br>This is information.</p></a></li>
+                </ul>
+                <!-- / One Column Portfolio -->
+                
+                 <div class="clearfix"></div>
+                 
+                 <ul data-role="listview" data-inset="true">
+                   <li><a href="#">Print Portfolio</a></li>
+                   <li><a href="#">Web Portfolio</a></li>
+                   <li><a href="#">Brochure Portfolio</a></li>
+                 </ul>
+            </div>
+            <!-- / Content -->
+        </div>
+        <!-- *********************************************************
+       	  PORTFOLIO PAGE END
+        ********************************************************* -->
+        
+        
+        <!-- *********************************************************
+       	 PORTFOLIO DETAIL PAGE BEGIN
+        ********************************************************* -->
+        <div data-role="page" class="pages" id="portfolio-detail" data-theme="a">
+           <!--header-->
+            <div data-role="header" class="header" data-theme="a">
+            <a href="#" class="showMenu menuBtn">Menu</a>
+            <div class="logo">&nbsp;</div>
+            <a href="#portfolio" class="backBtn">Back</a>
+            </div>
+            <!-- /header -->
+            
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"><div class="homeicon"></div></a></li>
+                <li><a href="#portfolio" title="Portfolio">Portfolio</a></li>
+                <li><a href="#" title="Portfolio Detail">Portfolio Detail</a></li>
+            </ul>
+            <!-- / breadcrumb-->
+        	
+            <!-- Content -->
+            <div data-role="content" >
+            
+                <!-- Text Box Area -->
+                <div class="text-box-area">
+                     
+                    <img src="assets/images/Demo/Slide/demo3.jpg" alt="img" class="align-center imgbox fixwidth">
+                     
+                    
+                                                
+                    <div class="text-info">
+                    	<strong>Did you saw our buttons!</strong>
+                        <p>You can use awesome buttons below;</p>
+                    </div>
+                
+                    <!-- Buttons -->
+                    <div class="text-info">
+                    <strong>Button have 3 different size;</strong>
+                    <p>Sizes are small, medium and big.</p>
+                    <a href="#" class="small tiger">Button</a>
+                    <a href="#" class="medium tiger">Button</a>
+                    <a href="#" class="large tiger">Button</a>
+                    </div>
+                    
+                    <div class="hr-full"></div>
+                    
+                    
+                    <div class="text-info">
+                    <strong>Button Colors</strong>
+                    <p>Button have 5 different color and easy to use;</p>
+                    <a href="#" class="small green tiger">Color</a>
+                    <a href="#" class="small blue tiger">Color</a>
+                    <a href="#" class="small magenta tiger">Color</a>
+                    <a href="#" class="small orange tiger">Color</a>
+                    <a href="#" class="small yellow tiger">Color</a>
+                    </div>
+
+        			<!-- Buttons -->
+                    
+                    <div class="text-info">
+            
+                    <p>Submit Button</p>
+                
+                    <input type="submit" value="Submit Button" />
+                
+                    <p>By default, grouped buttons are presented as a vertical list:</p>
+                    <div data-role="controlgroup">
+                    <a href="index.html" data-role="button">Yes</a>
+                    <a href="index.html" data-role="button">No</a>
+                    <a href="index.html" data-role="button">Maybe</a>
+                    </div>
+                
+                    <p>By adding the <code>data-type="horizontal"</code>
+                    
+                    <p>Horizontal grouped buttons:</p>
+                    <div data-role="controlgroup" data-type="horizontal">
+                    <a href="index.html" data-role="button">Yes</a>
+                    <a href="index.html" data-role="button">No</a>
+                    <a href="index.html" data-role="button">Maybe</a>
+                    </div>
+                
+                    <p>Horizontal grouped buttons with icons:</p>
+                    <div data-role="controlgroup" data-type="horizontal" >
+                    <a href="index.html" data-role="button" data-icon="plus">Add</a>
+                    <a href="index.html" data-role="button" data-icon="delete">Delete</a>
+                    </div>
+                            
+                    <p>Horizontal grouped buttons, icon only:</p>
+                    <div data-role="controlgroup" data-type="horizontal" >
+                    <a href="index.html" data-role="button" data-icon="arrow-u" data-iconpos="notext">Up</a>
+                    <a href="index.html" data-role="button" data-icon="arrow-d" data-iconpos="notext">Down</a>
+                    <a href="index.html" data-role="button" data-icon="delete" data-iconpos="notext">Delete</a>
+                    </div>
+            
+                </div>
+               </div>
+               <!-- / Text Box Area -->
+                
+            </div>
+            <!-- / Content -->
+            <div class="clear"></div>
+            
+        </div>
+            
+        <!-- *********************************************************
+       	  PORTFOLIO DETAIL PAGE END
+        ********************************************************* -->
+        
+
+        
+        <!-- *********************************************************
+       	 TWITTER PAGE BEGIN
+        ********************************************************* -->
+        <div data-role="page" class="pages" id="twitter" data-theme="a">
+            <div data-role="header" class="header" data-theme="a">
+            <a href="#" class="showMenu menuBtn">Menu</a>
+            <div class="logo">&nbsp;</div>
+            </div>
+            <!-- /header -->
+            
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"><div class="homeicon"></div></a></li>
+                <li><a href="#" title="Twitter">Twitter</a></li>
+            </ul>
+            <!-- / breadcrumb-->
+            
+            <!-- Content -->
+            <div data-role="content" >
+                <!-- Put your username on twitter -->
+                <p><a href="https://twitter.com/pizzup" class="twitter-follow-button" data-show-count="false">Follow @pizzup</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
+                <!-- Follow end -->
+                                    
+                <!-- Twitter Begin -->
+                <div id="jstwitter">
+                </div>
+                <!-- Twitter End -->
+            </div>
+            <!-- / Content -->           
+        </div>
+        <!-- *********************************************************
+       	  TWITTER PAGE END
+        ********************************************************* -->
+        
+        
+       
+        <!-- *********************************************************
+       	 CONTACT PAGE BEGIN
+        ********************************************************* -->
+        <div data-role="page" class="pages" id="contact" data-theme="a">
+            <!--header-->
+            <div data-role="header" class="header" data-theme="a">
+            <a href="#" class="showMenu menuBtn">Menu</a>
+            <div class="logo">&nbsp;</div>
+            </div>
+            <!-- /header -->
+        	
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#home"><div class="homeicon"></div></a></li>
+                <li><a href="#" title="Contact">Contact</a></li>
+            </ul>
+            <!-- / breadcrumb-->
+            
+            <!-- Content -->
+            <div data-role="content">	
+            	
+            	<!-- Container -->   
+                <div class="contactarea">
+              
+                    <div class="contact-header">YOUR COMPANY NAME</div>	
+                     
+                    <div class="contact-sub">
+                        <div class="csubtitle">Telephone</div>
+                        <div class="csubinfo">: +78 877 89 8</div>
+                    </div>
+                    
+                    <div class="contact-sub">
+                        <div class="csubtitle">Fax</div>
+                        <div class="csubinfo">: +78 877 89 8</div>
+                    </div>
+                    
+                    <div class="contact-sub">
+                        <div class="csubtitle">Address</div>
+                        <div class="csubinfo">: 9876 St Square Garden</div>
+                    </div>
+                    
+                    <div class="contact-sub">
+                        <div class="csubtitle">E-Mail</div>
+                        <a class="csubinfo" href="mailto:mail@yourdomain.com">: Click here for email us.</a>
+                    </div>
+                    
+                    <div class="contact-sub">
+                        <div class="csubtitle">Google Map</div>
+                        <div class="csubinfo">: <a href="http://maps.google.com/maps?q=London">Click here for map direction.</a></div>
+                    </div>
+                                            
+                </div>
+                <!-- / Contact Area -->
+                <div class="clearfix"></div>
+            </div>
+            <!-- /content -->
+            
+            <!-- If you want to use your mobile project copy / paste this (FOOTER) -->
+            <div data-role="footer" class="nav-glyphish" data-position="fixed" data-theme="a">
+            
+                <div data-role="navbar" class="nav-glyphish" data-grid="c">
+                    <ul>
+                        <li><a href="http://maps.google.com/maps?q=London" class="iconsub-white-Map" data-icon="custom">Blog</a></li>
+                        <li><a href="mailto:email@somewhere.com" class="iconsub-white-Envelope" data-icon="custom">Email</a></li>
+                        <li><a href="tel:+900000000" class="iconsub-white-Phone" data-icon="custom">Phone</a></li>
+                        <li><a href="#home" class="iconsub-white-House" data-icon="custom">Home</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <!-- end -->
+                
+        </div>
+        <!-- *********************************************************
+       	  CONTACT PAGE END
+        ********************************************************* -->
+      	
+
+        
+		<!-- Javascripts is down of the page for fast open -->
+        <script src="assets/js/vendor/modernizr-2.6.1.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+        <script src="assets/js/vendor/zepto.min.js"></script>
+        <script src="assets/js/helper.js"></script>
+		<script src="assets/js/custom.js"></script>
+        <script src="assets/js/add2home.js" charset="utf-8"></script><!-- Iphone Bubble  -->
+        
+   		<!--  Photo Swipe Gallery  -->
+		<script src="assets/js/klass.min.js"></script>
+        <script src="assets/js/photoswipe.js"></script>
+        <!--  Photo Swipe Gallery End -->
+        
+        <!--  Photo Swipe Gallery Custom JS  -->
+        <script type="text/javascript">
+            $(document).ready(function(){
+                var myPhotoSwipe = $("#Gallery a").photoSwipe({ enableMouseWheel: false , enableKeyboard: false });
+            });
+        </script>
+        
+        <!--  Photo Swipe Gallery Custom JS End-->
+        
+        <!-- Slider -->
+        <script src="assets/js/jquery.flexslider.js"></script>
+        <script>
+        $(document).ready(function() {
+            $('.flexslider').flexslider({
+                      slideDirection: "vertical",
+                      animation: "slide",
+                      start: function(slider){
+                        $('.flexslider').css("max-height" , "574px");
+                    }
+                });
+        });
+        </script>
+        <!-- / Slider -->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. ( Optional ) -->
+        <script>
+            var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+            g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+            s.parentNode.insertBefore(g,s)}(document,"script"));
+        </script>
+        <!-- Google End -->
+    </body>
+</html>
