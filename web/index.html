@@ -38,6 +38,7 @@
         <!-- CSS Files -->
         <link rel="stylesheet" href="assets/css/jquery.mobile.structure-1.0.1.min.css" type="text/css">
         <link rel="stylesheet" href="assets/css/jquery.mobile.1.0.1.min.css" />
+        <link href="assets/css/sharre.css" rel="stylesheet"/>
         <link rel="stylesheet" href="assets/css/add2home.css"><!-- Iphone Bubble  -->
         <link rel="stylesheet" href="assets/css/icons/icons.css" type="text/css" >
         <link rel="stylesheet" href="assets/css/icons/nav-icons.css" type="text/css" >
@@ -63,10 +64,7 @@
                 <!-- Social Links -->
             	<div class="social-links">
                     <p><a class="twitter" href="#"></a></p>
-                    <p><a class="rss" href="#"></a></p>
                     <p><a class="facebook" href="#"></a></p>
-                    <p><a class="googleplus" href="#"></a></p>
-                    <p><a class="linkedin" href="#"></a></p>
                 </div>
                 <!-- / Social Links -->
                 <div class="hr-full-black"></div>
@@ -76,14 +74,14 @@
            		<ul>
             	
                     <li><a href="#home" class="contentLink" data-transition="fade">Pizzup Home<span class="icon"></span></a></li>
-                    <li><a href="#aboutus" class="contentLink" data-transition="pop">Pizza - Tamanho<span class="icon"></span></a></li>
-                    <li><a href="#services" class="contentLink" data-transition="flip">Tipo de Massa<span class="icon"></span></a></li>
-                    <li><a href="#blog" class="contentLink" data-transition="fade">Bordas<span class="icon"></span></a></li>
-                    <li><a href="#products" class="contentLink" data-transition="fade">Sabor 1<span class="icon"></span></a></li>
-                    <li><a href="#gallery" class="contentLink" data-transition="flip">Sabor 2<span class="icon"></span></a></li>
-                    <li><a href="#portfolio" class="contentLink" data-transition="slideup">Acompanhamentos<span class="icon"></span></a></li>
-                    <li><a href="#twitter" class="contentLink" data-transition="slide">Fechar Pedido<span class="icon"></span></a></li>
-                    <li><a href="#contact" class="contentLink" data-transition="slideup">Compartilhar<span class="icon"></span></a></li>
+                    <li><a href="#tamanho" class="contentLink" data-transition="pop">Pizza - Tamanho<span class="icon"></span></a></li>
+                    <li><a href="#tipodemassa" class="contentLink" data-transition="flip">Tipo de Massa<span class="icon"></span></a></li>
+                    <li><a href="#bordas" class="contentLink" data-transition="fade">Bordas<span class="icon"></span></a></li>
+                    <li><a href="#sabor1" class="contentLink" data-transition="fade">Sabor 1<span class="icon"></span></a></li>
+                    <li><a href="#sabor2" class="contentLink" data-transition="flip">Sabor 2<span class="icon"></span></a></li>
+                    <li><a href="#acompanhamentos" class="contentLink" data-transition="slideup">Acompanhamentos<span class="icon"></span></a></li>
+                    <li><a href="#fecharpedido" class="contentLink" data-transition="slide">Fechar Pedido<span class="icon"></span></a></li>
+                    <li><a href="#twitter" class="contentLink" data-transition="slideup">Compartilhar<span class="icon"></span></a></li>
                
                </ul>
             
@@ -210,6 +208,7 @@
         
             </div>
             <!-- /content -->
+            
         </div>
         <!-- *********************************************************
        	 HOME PAGE END
@@ -220,7 +219,7 @@
         <!-- *********************************************************
        	 ABOUT US PAGE BEGIN
         ********************************************************* -->
-        <div data-role="page" class="pages" id="aboutus" data-theme="a">
+        <div data-role="page" class="pages" id="tamanho" data-theme="a">
         	
             <!-- Header Begin -->
             <div data-role="header" class="header" data-theme="a">
@@ -232,7 +231,8 @@
             <!-- breadcrumb -->
             <ul class="breadcrumb">
                 <li><a href="#home"><div class="homeicon"></div></a></li>
-                <li><a href="#" title="About Us">About Us</a></li>
+                <li><a href="#" title="Sua Pizza">Sua Pizza</a></li>
+                <li><a href="#tamanho" title="Tamanho">Tamanho</a></li>
             </ul>
             <!-- / breadcrumb-->
             
@@ -304,7 +304,7 @@
         <!-- *********************************************************
        	 SERVICES PAGE BEGIN
         ********************************************************* -->
-        <div data-role="page" class="pages" id="services" data-theme="a">
+        <div data-role="page" class="pages" id="tipodemassa" data-theme="a">
         	
             <!-- Header Begin -->
             <div data-role="header" class="header" data-theme="a">
@@ -316,7 +316,9 @@
             <!-- breadcrumb -->
             <ul class="breadcrumb">
                 <li><a href="#home"><div class="homeicon"></div></a></li>
-                <li><a href="#" title="Services">Services</a></li>
+                <li><a href="#" title="Sua Pizza">Sua Pizza</a></li>
+                <li><a href="#tamanho" title="Tamanho">Tamanho</a></li>
+                <li><a href="#tipodemassa" title="Tipo de Massa">Tipo de Massa</a></li>
             </ul>
             <!-- / breadcrumb-->
             
@@ -410,7 +412,18 @@
         
             </div>
             <!-- /content -->
+            <div data-role="footer" class="nav-glyphish" data-position="fixed" data-theme="a">
             
+                <div data-role="navbar" class="nav-glyphish" data-grid="c">
+                    <ul>
+                        <li><a href="http://maps.google.com/maps?q=London" class="iconsub-white-Map" data-icon="custom">Blog</a></li>
+                        <li><a href="mailto:email@somewhere.com" class="iconsub-white-Envelope" data-icon="custom">Email</a></li>
+                        <li><a href="tel:+900000000" class="iconsub-white-Phone" data-icon="custom">Phone</a></li>
+                        <li><a href="#home" class="iconsub-white-House" data-icon="custom">Home</a></li>
+                    </ul>
+                </div>
+                
+            </div>            
         </div>
         <!-- *********************************************************
        	  SERVICES PAGE END
@@ -420,7 +433,7 @@
    		<!-- *********************************************************
        	 BLOG PAGE BEGIN
         ********************************************************* -->
-        <div data-role="page" class="pages" id="blog" data-theme="a">
+        <div data-role="page" class="pages" id="bordas" data-theme="a">
        		<!--header-->
             <div data-role="header" class="header" data-theme="a">
             <a href="#" class="showMenu menuBtn">Menu</a>
@@ -431,7 +444,10 @@
             <!-- breadcrumb -->
             <ul class="breadcrumb">
                 <li><a href="#home"><div class="homeicon"></div></a></li>
-                <li><a href="#" title="Blog">Blog</a></li>
+                <li><a href="#" title="Sua Pizza">Sua Pizza</a></li>
+                <li><a href="#tamanho" title="Tamanho">Tamanho</a></li>
+                <li><a href="#tipodemassa" title="Tipo de Massa">Tipo de Massa</a></li>
+                <li><a href="#bordas" title="Bordas">Bordas</a></li>
             </ul>
             <!-- / breadcrumb-->
             
@@ -525,7 +541,18 @@
                 </div>
                 <!--END PAGENAVI-->	
            </div><!-- / Content -->
-           
+            <div data-role="footer" class="nav-glyphish" data-position="fixed" data-theme="a">
+            
+                <div data-role="navbar" class="nav-glyphish" data-grid="c">
+                    <ul>
+                        <li><a href="http://maps.google.com/maps?q=London" class="iconsub-white-Map" data-icon="custom">Blog</a></li>
+                        <li><a href="mailto:email@somewhere.com" class="iconsub-white-Envelope" data-icon="custom">Email</a></li>
+                        <li><a href="tel:+900000000" class="iconsub-white-Phone" data-icon="custom">Phone</a></li>
+                        <li><a href="#home" class="iconsub-white-House" data-icon="custom">Home</a></li>
+                    </ul>
+                </div>
+                
+            </div>           
         </div>
         <!-- *********************************************************
        	  BLOG PAGE END
@@ -664,6 +691,18 @@
             </div>
             <!-- / Content -->
             <div class="clear"></div>
+            <div data-role="footer" class="nav-glyphish" data-position="fixed" data-theme="a">
+            
+                <div data-role="navbar" class="nav-glyphish" data-grid="c">
+                    <ul>
+                        <li><a href="http://maps.google.com/maps?q=London" class="iconsub-white-Map" data-icon="custom">Blog</a></li>
+                        <li><a href="mailto:email@somewhere.com" class="iconsub-white-Envelope" data-icon="custom">Email</a></li>
+                        <li><a href="tel:+900000000" class="iconsub-white-Phone" data-icon="custom">Phone</a></li>
+                        <li><a href="#home" class="iconsub-white-House" data-icon="custom">Home</a></li>
+                    </ul>
+                </div>
+                
+            </div>            
         </div>
         <!-- *********************************************************
        	  BLOG DETAIL PAGE END
@@ -674,7 +713,7 @@
         <!-- *********************************************************
        	  PRODUCTS PAGE BEGIN
         ********************************************************* -->
-   		<div data-role="page" class="pages" id="products" data-theme="a">
+   		<div data-role="page" class="pages" id="sabor1" data-theme="a">
             <!--header-->
             <div data-role="header" class="header" data-theme="a">
             <a href="#" class="showMenu menuBtn">Menu</a>
@@ -685,7 +724,11 @@
             <!-- breadcrumb -->
             <ul class="breadcrumb">
                 <li><a href="#home"><div class="homeicon"></div></a></li>
-                <li><a href="#" title="Products">Products</a></li>
+                <li><a href="#" title="Sua Pizza">Sua Pizza</a></li>
+                <li><a href="#tamanho" title="Tamanho">Tamanho</a></li>
+                <li><a href="#tipodemassa" title="Tipo de Massa">Tipo de Massa</a></li>
+                <li><a href="#bordas" title="Bordas">Bordas</a></li>
+                <li><a href="#sabor1" title="Sabor 1">Sabor 1</a></li>
             </ul>
             <!-- / breadcrumb-->
         
@@ -731,7 +774,18 @@
             </div>
             <!-- / Content -->
             <div class="clear"></div>
+            <div data-role="footer" class="nav-glyphish" data-position="fixed" data-theme="a">
             
+                <div data-role="navbar" class="nav-glyphish" data-grid="c">
+                    <ul>
+                        <li><a href="http://maps.google.com/maps?q=London" class="iconsub-white-Map" data-icon="custom">Blog</a></li>
+                        <li><a href="mailto:email@somewhere.com" class="iconsub-white-Envelope" data-icon="custom">Email</a></li>
+                        <li><a href="tel:+900000000" class="iconsub-white-Phone" data-icon="custom">Phone</a></li>
+                        <li><a href="#home" class="iconsub-white-House" data-icon="custom">Home</a></li>
+                    </ul>
+                </div>
+                
+            </div>            
         </div>
         <!-- *********************************************************
        	  PRODUCTS PAGE END
@@ -872,7 +926,7 @@
    		<!-- *********************************************************
        	 GALLERY PAGE BEGIN
         ********************************************************* -->
-        <div data-role="page" class="pages" id="gallery" data-theme="a">
+        <div data-role="page" class="pages" id="sabor2" data-theme="a">
             <!--header-->
             <div data-role="header" class="header" data-theme="a">
             <a href="#" class="showMenu menuBtn">Menu</a>
@@ -883,7 +937,12 @@
             <!-- breadcrumb -->
             <ul class="breadcrumb">
                 <li><a href="#home"><div class="homeicon"></div></a></li>
-                <li><a href="#" title="Gallery">Gallery</a></li>
+                <li><a href="#" title="Sua Pizza">Sua Pizza</a></li>
+                <li><a href="#tamanho" title="Tamanho">Tamanho</a></li>
+                <li><a href="#tipodemassa" title="Tipo de Massa">Tipo de Massa</a></li>
+                <li><a href="#bordas" title="Bordas">Bordas</a></li>
+                <li><a href="#sabor1" title="Sabor 1">Sabor 1</a></li>
+                <li><a href="#sabor2" title="Sabor 2">Sabor 2</a></li>
             </ul>
             <!-- / breadcrumb-->
      	 
@@ -921,6 +980,18 @@
                      
                      
             </div><!-- /content -->
+            <div data-role="footer" class="nav-glyphish" data-position="fixed" data-theme="a">
+            
+                <div data-role="navbar" class="nav-glyphish" data-grid="c">
+                    <ul>
+                        <li><a href="http://maps.google.com/maps?q=London" class="iconsub-white-Map" data-icon="custom">Blog</a></li>
+                        <li><a href="mailto:email@somewhere.com" class="iconsub-white-Envelope" data-icon="custom">Email</a></li>
+                        <li><a href="tel:+900000000" class="iconsub-white-Phone" data-icon="custom">Phone</a></li>
+                        <li><a href="#home" class="iconsub-white-House" data-icon="custom">Home</a></li>
+                    </ul>
+                </div>
+                
+            </div>            
         </div>
         <!-- *********************************************************
        	  GALLERY PAGE END
@@ -931,7 +1002,7 @@
         <!-- *********************************************************
        	  PORTFOLIO PAGE BEGIN
         ********************************************************* -->
-        <div data-role="page" class="pages" id="portfolio" data-theme="a">
+        <div data-role="page" class="pages" id="acompanhamentos" data-theme="a">
             <!--header-->
             <div data-role="header" class="header" data-theme="a">
             <a href="#" class="showMenu menuBtn">Menu</a>
@@ -942,7 +1013,13 @@
             <!-- breadcrumb -->
             <ul class="breadcrumb">
                 <li><a href="#home"><div class="homeicon"></div></a></li>
-                <li><a href="#" title="Portfolio">Portfolio</a></li>
+                <li><a href="#" title="Sua Pizza">Sua Pizza</a></li>
+                <li><a href="#tamanho" title="Tamanho">Tamanho</a></li>
+                <li><a href="#tipodemassa" title="Tipo de Massa">Tipo de Massa</a></li>
+                <li><a href="#bordas" title="Bordas">Bordas</a></li>
+                <li><a href="#sabor1" title="Sabor 1">Sabor 1</a></li>
+                <li><a href="#sabor2" title="Sabor 2">Sabor 2</a></li>
+                <li><a href="#acompanhamentos" title="Acompanhamentos">Acompanhamentos</a></li>
             </ul>
             <!-- / breadcrumb-->
 
@@ -984,6 +1061,18 @@
                  </ul>
             </div>
             <!-- / Content -->
+            <div data-role="footer" class="nav-glyphish" data-position="fixed" data-theme="a">
+            
+                <div data-role="navbar" class="nav-glyphish" data-grid="c">
+                    <ul>
+                        <li><a href="http://maps.google.com/maps?q=London" class="iconsub-white-Map" data-icon="custom">Blog</a></li>
+                        <li><a href="mailto:email@somewhere.com" class="iconsub-white-Envelope" data-icon="custom">Email</a></li>
+                        <li><a href="tel:+900000000" class="iconsub-white-Phone" data-icon="custom">Phone</a></li>
+                        <li><a href="#home" class="iconsub-white-House" data-icon="custom">Home</a></li>
+                    </ul>
+                </div>
+                
+            </div>            
         </div>
         <!-- *********************************************************
        	  PORTFOLIO PAGE END
@@ -1119,6 +1208,10 @@
             
             <!-- Content -->
             <div data-role="content" >
+             <div id="example6">
+                <div id="sharre_twitter" data-url="http://www.pizzup.com.br/" data-text="Quer experimentar o PizzAPP?"></div>
+   				<div id="sharre_facebook" data-url="http://www.pizzup.com.br/" data-text="Quer experimentar o PizzAPP?"></div>
+             </div>   
                 <!-- Put your username on twitter -->
                 <p><a href="https://twitter.com/pizzup" class="twitter-follow-button" data-show-count="false">Follow @pizzup</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
@@ -1128,6 +1221,7 @@
                 <div id="jstwitter">
                 </div>
                 <!-- Twitter End -->
+                
             </div>
             <!-- / Content -->           
         </div>
@@ -1140,7 +1234,7 @@
         <!-- *********************************************************
        	 CONTACT PAGE BEGIN
         ********************************************************* -->
-        <div data-role="page" class="pages" id="contact" data-theme="a">
+        <div data-role="page" class="pages" id="fecharpedido" data-theme="a">
             <!--header-->
             <div data-role="header" class="header" data-theme="a">
             <a href="#" class="showMenu menuBtn">Menu</a>
@@ -1151,7 +1245,14 @@
             <!-- breadcrumb -->
             <ul class="breadcrumb">
                 <li><a href="#home"><div class="homeicon"></div></a></li>
-                <li><a href="#" title="Contact">Contact</a></li>
+				<li><a href="#" title="Sua Pizza">Sua Pizza</a></li>
+                <li><a href="#tamanho" title="Tamanho">Tamanho</a></li>
+                <li><a href="#tipodemassa" title="Tipo de Massa">Tipo de Massa</a></li>
+                <li><a href="#bordas" title="Bordas">Bordas</a></li>
+                <li><a href="#sabor1" title="Sabor 1">Sabor 1</a></li>
+                <li><a href="#sabor2" title="Sabor 2">Sabor 2</a></li>
+                <li><a href="#acompanhamentos" title="Acompanhamentos">Acompanhamentos</a></li>
+                <li><a href="#fecharpedido" title="Fechar Pedido">Fechar Pedido</a></li>
             </ul>
             <!-- / breadcrumb-->
             
@@ -1220,6 +1321,7 @@
         <script src="assets/js/vendor/modernizr-2.6.1.min.js"></script>
         <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
         <script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+        <script src="assets/js/jquery.sharrre-1.3.4.min.js"></script>
         <script src="assets/js/vendor/zepto.min.js"></script>
         <script src="assets/js/helper.js"></script>
 		<script src="assets/js/custom.js"></script>
@@ -1262,5 +1364,34 @@
             s.parentNode.insertBefore(g,s)}(document,"script"));
         </script>
         <!-- Google End -->
+        <!--  Sharre Init -->
+        <script>
+  $('#sharre_twitter').sharrre({
+	  share: {
+	    twitter: true
+	  },
+	  template: '<a class="box" href="#"><div class="count" href="#">{total}</div><div class="share"><span></span>Tweet</div></a>',
+	  enableHover: false,
+	  enableTracking: true,
+	  buttons: { twitter: {via: 'pizzup'}},
+	  click: function(api, options){
+	    api.simulateClick();
+	    api.openPopup('twitter');
+	  }
+	});
+	$('#sharre_facebook').sharrre({
+	  share: {
+	    facebook: true
+	  },
+	  template: '<a class="box" href="#"><div class="count" href="#">{total}</div><div class="share"><span></span>Like</div></a>',
+	  enableHover: false,
+	  enableTracking: true,
+	  click: function(api, options){
+	    api.simulateClick();
+	    api.openPopup('facebook');
+	  }
+	});
+  </script>
+   <!--  Sharre End -->
     </body>
 </html>
